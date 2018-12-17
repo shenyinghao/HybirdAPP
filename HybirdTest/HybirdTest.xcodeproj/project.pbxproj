@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE47E51F21C398F60007861C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47E51E21C398F60007861C /* AppDelegate.m */; };
+		FE47E52221C398F60007861C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47E52121C398F60007861C /* ViewController.m */; };
+		FE47E52521C398F60007861C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE47E52321C398F60007861C /* Main.storyboard */; };
+		FE47E52721C398F60007861C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE47E52621C398F60007861C /* Assets.xcassets */; };
+		FE47E52A21C398F60007861C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE47E52821C398F60007861C /* LaunchScreen.storyboard */; };
+		FE47E52D21C398F60007861C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47E52C21C398F60007861C /* main.m */; };
+		FE47E53721C398F70007861C /* HybirdTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47E53621C398F70007861C /* HybirdTestTests.m */; };
+		FE47E54221C398F70007861C /* HybirdTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE47E54121C398F70007861C /* HybirdTestUITests.m */; };
+		FE47E55921C399670007861C /* www in Resources */ = {isa = PBXBuildFile; fileRef = FE47E55821C399670007861C /* www */; };
+		FE47E55B21C399800007861C /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = FE47E55A21C399800007861C /* config.xml */; };
+		FE47E56021C39A310007861C /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE47E55521C3995D0007861C /* libCordova.a */; };
+		FE47E56221C39A380007861C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE47E56121C39A380007861C /* AssetsLibrary.framework */; };
+		FE47E56421C39A400007861C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE47E56321C39A400007861C /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE47E53321C398F70007861C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE47E51221C398F50007861C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE47E51921C398F50007861C;
+			remoteInfo = HybirdTest;
+		};
+		FE47E53E21C398F70007861C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE47E51221C398F50007861C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE47E51921C398F50007861C;
+			remoteInfo = HybirdTest;
+		};
+		FE47E55421C3995D0007861C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE47E54F21C3995D0007861C /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		FE47E55621C3995D0007861C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE47E54F21C3995D0007861C /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
+			remoteInfo = Cordova;
+		};
+		FE47E55D21C39A290007861C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE47E54F21C3995D0007861C /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE47E51A21C398F50007861C /* HybirdTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybirdTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE47E51D21C398F50007861C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE47E51E21C398F60007861C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE47E52021C398F60007861C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE47E52121C398F60007861C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE47E52421C398F60007861C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE47E52621C398F60007861C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE47E52921C398F60007861C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE47E52B21C398F60007861C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE47E52C21C398F60007861C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE47E53221C398F70007861C /* HybirdTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybirdTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE47E53621C398F70007861C /* HybirdTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybirdTestTests.m; sourceTree = "<group>"; };
+		FE47E53821C398F70007861C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE47E53D21C398F70007861C /* HybirdTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybirdTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE47E54121C398F70007861C /* HybirdTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybirdTestUITests.m; sourceTree = "<group>"; };
+		FE47E54321C398F70007861C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE47E54F21C3995D0007861C /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		FE47E55821C399670007861C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		FE47E55A21C399800007861C /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		FE47E56121C39A380007861C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FE47E56321C39A400007861C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE47E51721C398F50007861C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47E56421C39A400007861C /* MobileCoreServices.framework in Frameworks */,
+				FE47E56221C39A380007861C /* AssetsLibrary.framework in Frameworks */,
+				FE47E56021C39A310007861C /* libCordova.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47E52F21C398F70007861C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47E53A21C398F70007861C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE47E51121C398F50007861C = {
+			isa = PBXGroup;
+			children = (
+				FE47E55A21C399800007861C /* config.xml */,
+				FE47E55821C399670007861C /* www */,
+				FE47E54F21C3995D0007861C /* CordovaLib.xcodeproj */,
+				FE47E51C21C398F50007861C /* HybirdTest */,
+				FE47E53521C398F70007861C /* HybirdTestTests */,
+				FE47E54021C398F70007861C /* HybirdTestUITests */,
+				FE47E51B21C398F50007861C /* Products */,
+				FE47E55F21C39A310007861C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE47E51B21C398F50007861C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE47E51A21C398F50007861C /* HybirdTest.app */,
+				FE47E53221C398F70007861C /* HybirdTestTests.xctest */,
+				FE47E53D21C398F70007861C /* HybirdTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE47E51C21C398F50007861C /* HybirdTest */ = {
+			isa = PBXGroup;
+			children = (
+				FE47E51D21C398F50007861C /* AppDelegate.h */,
+				FE47E51E21C398F60007861C /* AppDelegate.m */,
+				FE47E52021C398F60007861C /* ViewController.h */,
+				FE47E52121C398F60007861C /* ViewController.m */,
+				FE47E52321C398F60007861C /* Main.storyboard */,
+				FE47E52621C398F60007861C /* Assets.xcassets */,
+				FE47E52821C398F60007861C /* LaunchScreen.storyboard */,
+				FE47E52B21C398F60007861C /* Info.plist */,
+				FE47E52C21C398F60007861C /* main.m */,
+			);
+			path = HybirdTest;
+			sourceTree = "<group>";
+		};
+		FE47E53521C398F70007861C /* HybirdTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE47E53621C398F70007861C /* HybirdTestTests.m */,
+				FE47E53821C398F70007861C /* Info.plist */,
+			);
+			path = HybirdTestTests;
+			sourceTree = "<group>";
+		};
+		FE47E54021C398F70007861C /* HybirdTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE47E54121C398F70007861C /* HybirdTestUITests.m */,
+				FE47E54321C398F70007861C /* Info.plist */,
+			);
+			path = HybirdTestUITests;
+			sourceTree = "<group>";
+		};
+		FE47E55021C3995D0007861C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE47E55521C3995D0007861C /* libCordova.a */,
+				FE47E55721C3995D0007861C /* Cordova.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE47E55F21C39A310007861C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE47E56321C39A400007861C /* MobileCoreServices.framework */,
+				FE47E56121C39A380007861C /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE47E51921C398F50007861C /* HybirdTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE47E54621C398F70007861C /* Build configuration list for PBXNativeTarget "HybirdTest" */;
+			buildPhases = (
+				FE47E51621C398F50007861C /* Sources */,
+				FE47E51721C398F50007861C /* Frameworks */,
+				FE47E51821C398F50007861C /* Resources */,
+				FE47E55C21C399BD0007861C /* copy www directory */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE47E55E21C39A290007861C /* PBXTargetDependency */,
+			);
+			name = HybirdTest;
+			productName = HybirdTest;
+			productReference = FE47E51A21C398F50007861C /* HybirdTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE47E53121C398F70007861C /* HybirdTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE47E54921C398F70007861C /* Build configuration list for PBXNativeTarget "HybirdTestTests" */;
+			buildPhases = (
+				FE47E52E21C398F70007861C /* Sources */,
+				FE47E52F21C398F70007861C /* Frameworks */,
+				FE47E53021C398F70007861C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE47E53421C398F70007861C /* PBXTargetDependency */,
+			);
+			name = HybirdTestTests;
+			productName = HybirdTestTests;
+			productReference = FE47E53221C398F70007861C /* HybirdTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE47E53C21C398F70007861C /* HybirdTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE47E54C21C398F70007861C /* Build configuration list for PBXNativeTarget "HybirdTestUITests" */;
+			buildPhases = (
+				FE47E53921C398F70007861C /* Sources */,
+				FE47E53A21C398F70007861C /* Frameworks */,
+				FE47E53B21C398F70007861C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE47E53F21C398F70007861C /* PBXTargetDependency */,
+			);
+			name = HybirdTestUITests;
+			productName = HybirdTestUITests;
+			productReference = FE47E53D21C398F70007861C /* HybirdTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE47E51221C398F50007861C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Gome;
+				TargetAttributes = {
+					FE47E51921C398F50007861C = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					FE47E53121C398F70007861C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FE47E51921C398F50007861C;
+					};
+					FE47E53C21C398F70007861C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FE47E51921C398F50007861C;
+					};
+				};
+			};
+			buildConfigurationList = FE47E51521C398F50007861C /* Build configuration list for PBXProject "HybirdTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE47E51121C398F50007861C;
+			productRefGroup = FE47E51B21C398F50007861C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FE47E55021C3995D0007861C /* Products */;
+					ProjectRef = FE47E54F21C3995D0007861C /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FE47E51921C398F50007861C /* HybirdTest */,
+				FE47E53121C398F70007861C /* HybirdTestTests */,
+				FE47E53C21C398F70007861C /* HybirdTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FE47E55521C3995D0007861C /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = FE47E55421C3995D0007861C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE47E55721C3995D0007861C /* Cordova.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cordova.framework;
+			remoteRef = FE47E55621C3995D0007861C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE47E51821C398F50007861C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47E55921C399670007861C /* www in Resources */,
+				FE47E52A21C398F60007861C /* LaunchScreen.storyboard in Resources */,
+				FE47E52721C398F60007861C /* Assets.xcassets in Resources */,
+				FE47E52521C398F60007861C /* Main.storyboard in Resources */,
+				FE47E55B21C399800007861C /* config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47E53021C398F70007861C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47E53B21C398F70007861C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE47E55C21C399BD0007861C /* copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE47E51621C398F50007861C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47E52221C398F60007861C /* ViewController.m in Sources */,
+				FE47E52D21C398F60007861C /* main.m in Sources */,
+				FE47E51F21C398F60007861C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47E52E21C398F70007861C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47E53721C398F70007861C /* HybirdTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47E53921C398F70007861C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE47E54221C398F70007861C /* HybirdTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE47E53421C398F70007861C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE47E51921C398F50007861C /* HybirdTest */;
+			targetProxy = FE47E53321C398F70007861C /* PBXContainerItemProxy */;
+		};
+		FE47E53F21C398F70007861C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE47E51921C398F50007861C /* HybirdTest */;
+			targetProxy = FE47E53E21C398F70007861C /* PBXContainerItemProxy */;
+		};
+		FE47E55E21C39A290007861C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = FE47E55D21C39A290007861C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE47E52321C398F60007861C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE47E52421C398F60007861C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE47E52821C398F60007861C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE47E52921C398F60007861C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE47E54421C398F70007861C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE47E54521C398F70007861C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE47E54721C398F70007861C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HybirdTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Plus.HybirdTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE47E54821C398F70007861C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HybirdTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Plus.HybirdTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE47E54A21C398F70007861C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HybirdTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Plus.HybirdTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybirdTest.app/HybirdTest";
+			};
+			name = Debug;
+		};
+		FE47E54B21C398F70007861C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HybirdTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Plus.HybirdTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HybirdTest.app/HybirdTest";
+			};
+			name = Release;
+		};
+		FE47E54D21C398F70007861C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HybirdTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Plus.HybirdTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HybirdTest;
+			};
+			name = Debug;
+		};
+		FE47E54E21C398F70007861C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HybirdTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Plus.HybirdTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HybirdTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE47E51521C398F50007861C /* Build configuration list for PBXProject "HybirdTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE47E54421C398F70007861C /* Debug */,
+				FE47E54521C398F70007861C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE47E54621C398F70007861C /* Build configuration list for PBXNativeTarget "HybirdTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE47E54721C398F70007861C /* Debug */,
+				FE47E54821C398F70007861C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE47E54921C398F70007861C /* Build configuration list for PBXNativeTarget "HybirdTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE47E54A21C398F70007861C /* Debug */,
+				FE47E54B21C398F70007861C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE47E54C21C398F70007861C /* Build configuration list for PBXNativeTarget "HybirdTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE47E54D21C398F70007861C /* Debug */,
+				FE47E54E21C398F70007861C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE47E51221C398F50007861C /* Project object */;
+}
